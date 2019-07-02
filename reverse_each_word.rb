@@ -7,5 +7,6 @@ def reverse_each_word(string)
 =end
   
   newString = string.split
-  newString.collect do |words| p words.reverse end
+  finalCollectRev = newString.collect do |words| p words.reverse end
+  finalCollectRev.join(" ")
 end
