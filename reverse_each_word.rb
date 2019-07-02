@@ -3,4 +3,6 @@ def reverse_each_word(string)
   reverseThis = newString.reverse
   finalRev = reverseThis.join(" ")
   p finalRev.reverse
+  
+  string.collect
 end
