@@ -1,10 +1,10 @@
 def reverse_each_word(string)
-begin
+=begin
   newString = string.split
   reverseThis = newString.reverse
   finalRev = reverseThis.join(" ")
   p finalRev.reverse
-end
+=end
   
   anotherSet = string.collect
   p anotherSet.reverse
