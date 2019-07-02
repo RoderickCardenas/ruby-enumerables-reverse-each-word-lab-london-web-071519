@@ -1,4 +1,5 @@
 def reverse_each_word(string)
   newString = string.split
-  newString.each { |word| p "#{word.reverse}"}
+   reverseThis = newString.each { |word| p word}
+  reverseThis.reverse
 end
