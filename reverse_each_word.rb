@@ -6,6 +6,5 @@ def reverse_each_word(string)
   p finalRev.reverse
 =end
   
-  anotherSet = string.collect
-  p anotherSet.reverse
+  string.collect do |words| words.reverse p words end
 end
