@@ -4,5 +4,6 @@ def reverse_each_word(string)
   finalRev = reverseThis.join(" ")
   p finalRev.reverse
   
-  string.collect
+  anotherSet = string.collect
+  p anotherSet.reverse
 end
